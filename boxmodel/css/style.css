@@ -1,16 +1,34 @@
 h1 {
-    background-image: url(../assets/images/bluesky.jpg);}
-    border: 5px rgb(249, 50, 50) solid;
+    background: linear-gradient(blue, rgb(220, 232, 159));
+    border: 5px rgb(189, 206, 78) solid;
     text-align: center;
     padding: 10px;
     margin: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    color: #fff;
 }
 
-h3 {
-    color: blue;
+h3
+{ color: blue;
+    
 
+}
+p { font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3421d7;
+    font-size: larger;
+    text-transform: capitalize;
+    text-shadow: 1px 1px rgb(161, 202, 65), 2px 1px rgb(0, 102, 255);
+    text-align: center;
 }
 body {
-    background-image: url(../assets/images/new_beginnings.jpg);
+    background-image: url(../assets/images/pawel-czerwinski-utu66oQU6vI-unsplash.jpg);}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #90beec;
+    color: #fff;
+}
     
