@@ -1,0 +1,16 @@
+h1 {
+    background-image: url(../assets/images/bluesky.jpg);}
+    border: 5px rgb(249, 50, 50) solid;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+h3 {
+    color: blue;
+
+}
+body {
+    background-image: url(../assets/images/new_beginnings.jpg);
+    
