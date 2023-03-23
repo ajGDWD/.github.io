@@ -1,34 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,300&family=Roboto:wght@500&display=swap');
+</style>
+
+
+
 h1 {
-    background: linear-gradient(blue, rgb(220, 232, 159));
+    background: linear-gradient(rgb(220, 220, 234), rgb(220, 232, 159));
     border: 5px rgb(189, 206, 78) solid;
     text-align: center;
     padding: 10px;
     margin: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    font-family: font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;;   
     color: #fff;
 }
 
 h3
-{ color: blue;
-    
+{ color: blue;}
+.quotecitation {font-weight: bold;
+    font-family: font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #3421d7;
 
 }
+#main {padding: 10px;
+    font-size: 15px;
+    border: rgb(50, 50, 139);
+    min-height: 100px;
+    text-align: center;
+
+}
+
 p { font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #3421d7;
     font-size: larger;
     text-transform: capitalize;
-    text-shadow: 1px 1px rgb(161, 202, 65), 2px 1px rgb(0, 102, 255);
-    text-align: center;
-}
-body {
-    background-image: url(../assets/images/pawel-czerwinski-utu66oQU6vI-unsplash.jpg);}
+    text-shadow: 1px 1px rgb(161, 202, 65), 2px rgb(0, 102, 255);
+    text-align: center;}
 
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: #90beec;
-    color: #fff;
+body {
+    background-color: rgb(187, 240, 240);
+    text-align: center
+    height: 700px;
+   round fixed border box
+
+#content {text-align: center;
+
+    }
+footer { 
+        border-bottom border-end-end-radius: 4px dashed blue;
+        background-color: blue rgb(0, 102, 255);
+        height: 100px;
+        width: 100px;
+        padding: 8px
+        font-weight: bold;
+        margin: 20px
+        text-align: center;
+      }
+div {border:rgb(187, 240, 240)
+    margin:
+
 }
     
