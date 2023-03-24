@@ -15,7 +15,7 @@ div { margin: 5px;
 
 }
 a { padding: 5px;
-    margin: 5px;}ss
+    margin: 5px;}
 
 
 
@@ -75,4 +75,6 @@ footer {
   background-color: rgb(246, 239, 237);
   color: white}
 
+.spp { float: right;
 
+}
