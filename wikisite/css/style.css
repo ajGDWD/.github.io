@@ -61,5 +61,12 @@ div {float: right
 
 }
 
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(246, 239, 237);
+  color: white;
+}
+
 
 
