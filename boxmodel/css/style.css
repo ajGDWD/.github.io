@@ -9,8 +9,7 @@ h1 {
     text-align: center;
     padding: 10px;
     margin: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;;   
+    font-family: 'Montserrat', sans-serif;   
     color: #fff;
 }
 
@@ -18,7 +17,6 @@ h3
 { color: blue;}
 .quotecitation {font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
     color:#3421d7;
 }
 #main {padding: 10px;
@@ -31,7 +29,6 @@ h3
 
 p { font-weight: bold;
     font-family:  'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
     color: #3421d7;
     font-size: larger;
     text-transform: capitalize;
@@ -40,8 +37,8 @@ p { font-weight: bold;
 
 body {
     background-color: rgb(187, 240, 240);
-    text-align: center;
-    height: 700px;}
+    text-align: center;}
+  
 
 #content {text-align: center;}
 
@@ -56,5 +53,5 @@ footer {
         margin: 20px;
         text-align: center;
       }
-div {border:rgb(187, 240, 240)}
+/* div {border:rgb(187, 240, 240)} */
     
