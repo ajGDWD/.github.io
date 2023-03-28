@@ -1,0 +1,25 @@
+body, ul {margin: 0;
+}
+
+ul li {display: inline;  
+}
+
+nav {  background-color: rgb(223, 204, 242);
+    text-align: center;    
+}
+
+ul { padding: 10px;
+}
+
+ul {padding-left: 0;
+
+}
+li a {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+li a:hover {
+    text-decoration: underline;
+    letter-spacing: 2px;
+}s
