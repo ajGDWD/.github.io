@@ -5,6 +5,7 @@
     height: 200px; 
     justify-content: space-evenly;
     align-items:center;
+    gap: 10px;
 
 
 }
@@ -15,7 +16,6 @@
     background-color: lightblue;
     margin: 5px;
 
-}
 
 
 /* #item1, #item6 {align-self: flex-start;
