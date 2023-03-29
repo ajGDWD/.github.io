@@ -1,0 +1,28 @@
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    height: 200px; 
+    justify-content: space-evenly;
+    align-items:center;
+
+
+}
+.item {
+    color: white;
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    margin: 5px;
+
+}
+
+
+/* #item1, #item6 {align-self: flex-start;
+}
+
+#item3 { align-self: flex-end;
+
+}
+#item4 { flex-shrink: 1;} */
+
