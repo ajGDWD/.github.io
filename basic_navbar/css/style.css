@@ -1,17 +1,26 @@
 body, ul {margin: 0;
 }
+body { height: 200;}
 
 ul li {display: inline;  
 }
 
 nav {  background-color: rgb(223, 204, 242);
-    text-align: center;    
+    text-align: center;   
+    position: relative 
+    top 0; 
 }
 
 ul { padding: 10px;
 }
 
 ul {padding-left: 0;
+
+}
+img { float: left;
+margin: right;}s
+
+h2 {background-color: rgb(233, 218, 232);
 
 }
 li a {
@@ -23,3 +32,14 @@ li a:hover {
     text-decoration: underline;
     letter-spacing: 2px;
 }s
+
+footer { 
+    border: 4px solid rgb (223,204, 242);
+    background: rgb (223,204, 242);
+    height: 100px;
+    width: 800px;
+    padding: 5px;
+    text-align: center;
+  }
+/* div {border:rgb(187, 240, 240)} */
+
