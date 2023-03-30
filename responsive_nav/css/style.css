@@ -1,0 +1,61 @@
+body, ul {
+    margin: 0;
+}
+nav { background-color: rgb(109, 189, 224);
+justify-content: center;
+border-width: 130px;
+box-sizing: 10;
+}
+
+ul { display: flex;
+    padding-left: 0;
+    justify-content: center;
+    gap: 15px;
+}
+
+li {list-style: none;
+    gap: 10px;
+}
+
+#home {
+    margin-right: 0;
+}
+.dropdown-menu {
+    background-color: darkgray;
+    flex-direction: column;
+    position: absolute;
+    /* opacity: 0; */
+    
+}
+.imgs {display: flex;
+        justify-content: center;
+        margin: 3rem;
+        gap: 25px;
+
+}
+.img.img {
+    width: 30%;
+    object-fit: cover;
+}
+.hero.img { background-image: url("../assets/flowershoes.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.info {margin: 3rem;
+
+}
+
+.info h2 {
+    text-align: center;
+}
+
+
+.trigger-dropdown:hover .dropdown-menu {
+/* opacity: 1; */
+}
+
+
+
+
