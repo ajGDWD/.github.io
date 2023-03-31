@@ -65,13 +65,18 @@ margin-top: 10%;}
 
 
 .women1 img {height: 35vh;
-    width: 501x; 
+    width: 30%; 
 justify-content: space-evenly;
+display: flexbox;
+align-items: center;
+object-fit: cover;
 }
 
 .men1 img {height: 35vh;
-    width: 501x; 
-justify-content: space-evenly;
+    width: 30%; 
+   display: flex
+justify-content: space-evenly
+gap: 60px;
 }
 
 
@@ -125,6 +130,8 @@ justify-content: space-evenly;
 @media all and (max-width: 500px) {
     body {
         color:lightskyblue;
+        orientation: landscape;
+        height: 10px; ;
     }
 }
 
