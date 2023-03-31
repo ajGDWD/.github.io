@@ -127,17 +127,8 @@ gap: 60px;
 .trigger-dropdown:hover .dropdown-menu { opacity: 1;
 
 }
-@media all and (max-width: 500px) {
-    body {
-        color:lightskyblue;
-        orientation: landscape;
-        height: 10px; ;
-    }
+
+@media only screen and (max-width: 768px) {
+    .hero-img1 { flex-direction: column;
+
 }
-
-
-
-
-
-
-
