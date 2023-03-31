@@ -1,3 +1,17 @@
+body {background: linear-gradient (to right skyblue, rgb(237, 180, 237));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+h1 {text-align: center;}
+
+h1 style {background-image: url(sparkly_heels.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
 body, ul {
     margin: 0;
 }
@@ -11,6 +25,8 @@ ul { display: flex;
     padding-left: 0;
     justify-content: center;
     gap: 15px;
+    height: 7vh;
+    align-items: center;
 }
 
 li {list-style: none;
@@ -24,7 +40,7 @@ li {list-style: none;
     background-color: darkgray;
     flex-direction: column;
     position: absolute;
-    /* opacity: 0; */
+    opacity: 0;
     
 }
 .imgs {display: flex;
@@ -37,12 +53,38 @@ li {list-style: none;
     width: 30%;
     object-fit: cover;
 }
-.hero.img { background-image: url("../assets/flowershoes.jpg");
+.hero-img { 
+    background-image: url("../assets/flowershoes.jpg");
     height: 50vh;
     background-size: cover;
     background-position: center;
  
 }
+
+
+.hero-img1 { 
+    background-image: url("../assets/kidsneakers.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.hero-img2 { 
+    background-image: url("../assets/sparkly_heels.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+.hero-img3 { 
+    background-image: url("../assets/men1.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
 .info {margin: 3rem;
 
 }
@@ -51,14 +93,11 @@ li {list-style: none;
     text-align: center;
 }
 
+.trigger-dropdown:hover .dropdown-menu { opacity: 1;
 
-.trigger-dropdown:hover {
-    
+
 }
 
-.dropdown-menu {
-/* opacity: 1; */
-}
 
 
 
