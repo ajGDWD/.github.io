@@ -5,7 +5,15 @@ body {background: linear-gradient (to right skyblue, rgb(237, 180, 237));
 
 }
 
-h1 {text-align: center;}
+h1 {text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 800;}
+
+h2 .quoteContent {text-align: center; }
+h4 {background-color: aqua; text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: larger;
+text-align: center};
 
 h1 style {background-image: url(sparkly_heels.jpg);
     background-size: 500px;
@@ -20,6 +28,8 @@ justify-content: center;
 border-width: 130px;
 box-sizing: 10;
 }
+
+
 
 ul { display: flex;
     padding-left: 0;
@@ -49,6 +59,22 @@ li {list-style: none;
         gap: 25px;
 
 }
+.img1 {display: flex;
+justify-content: space-evenly; 
+margin-top: 10%;}
+
+
+.women1 img {height: 35vh;
+    width: 501x; 
+justify-content: space-evenly;
+}
+
+.men1 img {height: 35vh;
+    width: 501x; 
+justify-content: space-evenly;
+}
+
+
 .img.img {
     width: 30%;
     object-fit: cover;
@@ -70,8 +96,8 @@ li {list-style: none;
  
 }
 .hero-img2 { 
-    background-image: url("../assets/sparkly_heels.jpg");
-    height: 100vh;
+    background-image: url("../assets/workboots.jpg");
+    height: 50vh;
     background-size: cover;
     background-position: center;
  
@@ -88,15 +114,21 @@ li {list-style: none;
 .info {margin: 3rem;
 
 }
-
+                                                                
 .info h2 {
     text-align: center;
 }
 
 .trigger-dropdown:hover .dropdown-menu { opacity: 1;
 
-
 }
+@media all and (max-width: 500px) {
+    body {
+        color:lightskyblue;
+    }
+}
+
+
 
 
 
