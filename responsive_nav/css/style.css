@@ -52,7 +52,11 @@ li {list-style: none;
 }
 
 
-.trigger-dropdown:hover .dropdown-menu {
+.trigger-dropdown:hover {
+    
+}
+
+.dropdown-menu {
 /* opacity: 1; */
 }
 
