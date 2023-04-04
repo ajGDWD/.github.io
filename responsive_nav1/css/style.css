@@ -9,7 +9,11 @@ h1 {text-align: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight: 800;}
 
-h2 .quoteContent {text-align: center; }
+h3 {text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;}
+
+h2  {text-align: center; }
 h4 {background-color: aqua; text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 700;
     font-size: larger;
@@ -23,13 +27,44 @@ h1 style {background-image: url(sparkly_heels.jpg);
 body, ul {
     margin: 0;
 }
+.nav a {float: left;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px
+    text-decoration: none;
+    font-size: 17px;
+    margin: 5px;
+}
+
+/* Change the color of links on hover */
+
+/* .nav a:hover {
+    background-color: darkmagenta;
+    color: blue;
+} */
 nav { background-color: rgb(109, 189, 224);
 justify-content: center;
+margin-bottom: 50px;
 border-width: 130px;
 box-sizing: 10;
 }
 
+.nav a.active {
+    background-color:aquamarine;
+    color: white;
+}
 
+ul {display: block;
+    padding: 20px 25px;
+    color: rgb(109, 189, 224);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* ul li .dropdown-menu {display: block;
+
+} */
 
 ul { display: flex;
     padding-left: 0;
@@ -47,12 +82,15 @@ li {list-style: none;
     margin-right: 0;
 }
 .dropdown-menu {
-    background-color: darkgray;
+    /* background-color: darkgray; */
     flex-direction: column;
     position: absolute;
-    opacity: 0;
-    
+    opacity: 0;  
 }
+.trigger-dropdown:hover .dropdown-menu { opacity: 1;
+
+}
+
 .imgs {display: flex;
         justify-content: center;
         margin: 3rem;
@@ -65,7 +103,7 @@ margin-top: 10%;}
 
 
 .women1 img {height: 35vh;
-    width: 30%; 
+    width: 100%; 
 justify-content: space-evenly;
 display: flexbox;
 align-items: center;
@@ -73,7 +111,7 @@ object-fit: cover;
 }
 
 .men1 img {height: 35vh;
-    width: 30%; 
+    width: 100%; 
    display: flex
 justify-content: space-evenly
 gap: 60px;
@@ -81,7 +119,7 @@ gap: 60px;
 
 
 .img.img {
-    width: 30%;
+    width: 100%;
     object-fit: cover;
 }
 .hero-img { 
@@ -94,14 +132,14 @@ gap: 60px;
 
 
 .hero-img1 { 
-    background-image: url("../assets/kidsneakers.jpg");
+    background-image: url("../assets/kids_boots.jpg");
     height: 50vh;
     background-size: cover;
     background-position: center;
  
 }
 .hero-img2 { 
-    background-image: url("../assets/workboots.jpg");
+    background-image: url("../assets/shopping.jpg");
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -116,27 +154,54 @@ gap: 60px;
  
 }
 
+.hero-img4 { 
+    background-image: url("../assets/kidsneakers.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+.hero-img5 { 
+    background-image: url("../assets/kidsneakers.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+
+
+/* footer { 
+    border: 4px solid hsl(162, 72%, 60%);
+    background: linear-gradient rgb(53, 191, 209), rgb(109, 189, 224)  rgb(109, 189, 224);
+    height: 100px;
+    padding: 5px;
+   border: #fff;
+    text-align: center;
+  } */
+
+ footer { text-align: center;
+    padding: 1px;
+    border: 5px rgb(11, 12, 0) solid;
+    background-color: rgb(109,189, 224);
+    }
+/* div {border:rgb(187, 240, 240)} */
+
+
 .info {margin: 3rem;
 
 }
                                                                 
 .info h2 {
-    text-align: center;
-}
+    text-align: center;}
 
-.trigger-dropdown:hover .dropdown-menu { opacity: 1;
-
-}
 @media all and (max-width: 500px) 
     body {
         color:lightskyblue;
         orientation: landscape;
         height: 10px; 
     }
-
-
-
-
 
 
 @media only screen and (max-width: 768px) 
