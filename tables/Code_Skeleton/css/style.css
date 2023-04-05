@@ -6,7 +6,7 @@ table {
 
 
 
-tr:nth-of-type(1) {background-color: green;
+tr:nth-of-type(1) {background-color: rgb(76, 181, 230);
     color: white;
 
 
@@ -18,7 +18,7 @@ td:nth-of-type(1) {
 }
 tr:nth-of-type(3) {
     background-color: lightgray;
-    color: green;
+    rgb(76, 181, 230);;
     border-bottom: black 1px solid;
     font-weight: 600;
     border-top: black 1px solid;
@@ -26,7 +26,7 @@ tr:nth-of-type(3) {
 }
 
 tr:nth-last-of-type(1){
-    border-bottom: green 2px solid;
+    border-bottom: rgb(76, 167, 201) 2px solid;
     border-top: black 1px solid;
 
 }
