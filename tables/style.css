@@ -18,7 +18,7 @@ td:nth-of-type(1) {
 }
 tr:nth-of-type(3) {
     background-color: lightgray;
-    rgb(76, 181, 230);;
+    color:rgb(76, 181, 230);
     border-bottom: black 1px solid;
     font-weight: 600;
     border-top: black 1px solid;
@@ -30,5 +30,3 @@ tr:nth-last-of-type(1){
     border-top: black 1px solid;
 
 }
-
-
