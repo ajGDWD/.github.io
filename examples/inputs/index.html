@@ -52,6 +52,10 @@
         <input type="button" value="Submit">
 
 <!-- Shipping Information -->
+ <fieldset>
+        <legend>Shipping Options</legend>
+    </fieldset>
+
 <form action="">
     <Fieldset>
         <legend>Shipping Address</legend>
@@ -78,7 +82,75 @@
          <!-- City-->
          <label for="City--">City</label>
          <input type="City" name="City" id="City" placeholder="City">
+
+          <!-- Zip Code-->
+          <label for="Zip Code--">Zip Code</label>
+          <input type="Zip Code" name="Zip Code" id="Zip Code" placeholder="Zip Code">
     </Fieldset>
+
+    <!-- Payment Info -->
+    <fieldset>
+        <legend>Payment Info</legend>
+            <!-- cc Number -->
+            <label for="ccNum">Credit Card Number</label>
+            <input type="text" name="ccNum" id="ccNum">
+
+            <!-- Expiration Date -->
+            <label for="exp">Exp. Month/Year</label>
+            <input type="month" name="exp" id="exp">
+
+            <!-- CCV -->
+            <label for="ccv">ccv</label>
+            <input type="number" name="ccv" id="ccv">
+    </fieldset>
+            
+    <fieldset>
+        <legend>Message</legend>
+        <label for="message">send a message</label>
+        <br>
+        <textarea name="message" id="Type your message here" cols="30" rows="10">placeholder</textarea>
+        <br>
+        <!-- Select -->
+        
+        <!-- Month -->
+        <select name="birthday" id="month">
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+        <option value="april">April</option>
+        <option value="may">May</option>
+        <option value="june">June</option>
+        <option value="july">July</option>
+        <option value="august">August</option>
+
+        </select>
+         <!-- Day -->
+            <select name="birthday" id="day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8"></option>
+        </select>
+    
+        <!-- Year -->
+            <select name="birthday" id="year">
+     
+                <option value="2023-2023">2023-2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+
+        </select>
+
+    </fieldset>
 
     <fieldset>
         <legend>US Post Office</legend>
@@ -88,8 +160,9 @@
         <legend>Shipping Options</legend>
     </fieldset>
 
-
-
+    <fieldset>
+        <legend>Payment Info</legend>
+    </fieldset>
 
 </form>
 
