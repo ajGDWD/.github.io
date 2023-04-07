@@ -7,8 +7,8 @@ ul li {display: inline;
 
 nav {  background-color: rgb(223, 204, 242);
     text-align: center;   
-    position: relative 
-    top 0; 
+    position: fixed;
+    height: 1000px;
 }
 
 ul { padding: 10px;
