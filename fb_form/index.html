@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.typekit.net/fpj3wgm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Facebook - Sign Up</title>
     
@@ -21,30 +22,32 @@
 
             <div class="form">
                 <h2>Create a new account</h2>
-                <h5>It's quick and easy</h5>
-                <form action="POST">
-        <fieldset>
+                <p>It's quick and easy</p>
+<form action="POST">
+                    <hr>
+            <div>
                          <!-- Facebook  -->
-            <label for="What can we help you with?">First Name</label>
-            <input type="text" name="firstname" id="" placeholder="First Name">
+            <div>
+                    <label for="What can we help you with?">First Name</label>
+                    <input type="text" name="firstname" id="" placeholder="First Name" required minlength="2" maxlength="30">
 
-                        <!-- last Name -->
-            <label for="lastname">Last Name</label>
-            <input type="lastname" name="lastname" id="" placeholder="Last Name">
-
-        </fieldset>
+                                <!-- last Name -->
+                    <label for="lastname">Last Name</label>
+                    <input type="lastname" name="lastname" id="" placeholder="Last Name" required minlength="2" maxlength="30">
+           </div>
+       
         <br>
 
                         <!-- Email -->
          <fieldset>
             <label for="Email">Email</label>
-            <input type="Email" name="Email" id="Email" placeholder="Email">
+            <input type="Email" name="Email" id="Email" placeholder="Email" required minlength="1" maxlength="30">
         </fieldset>
 
         <br>
         <fieldset>
             <label for="New Password">New Password</label>
-            <input type="New Password" name="New Password" id="New Password" placeholder="New Password">
+            <input type="New Password" name="New Password" id="New Password" placeholder="New Password" required minlength="6" maxlength="15">
 
         </fieldset>
         <br>
@@ -52,12 +55,12 @@
             <br>
                         <!-- Birthday -->
                 <label for="Birthday">Birthday</label>
-                <!-- <input type="Birthday" name="Birthday" id="Birthday" placeholder="Birthday"> -->
-       
+                <i class="fa-regular fa-circle-question" style="color: #000205;"></i>
+               
                     <!-- Select -->
         
         <!-- Month -->
-        <select name="birthday" id="month">
+        <select name="birthday" id="month" required>
             <option value="january">January</option>
             <option value="february">February</option>
             <option value="march">March</option>
@@ -69,7 +72,7 @@
     
             </select>
              <!-- Day -->
-                <select name="birthday" id="day">
+                <select name="birthday" id="day" required>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -81,7 +84,7 @@
             </select>
         
             <!-- Year -->
-                <select name="birthday" id="year">
+                <select name="birthday" id="year" required>
                     <option value="2023-2023">2023-2023</option>
                     <option value="2022">2022</option>
                     <option value="2021">2021</option>
@@ -92,32 +95,57 @@
                     <option value="2016">2016</option>
             </select>
            </fieldset>
-           <br>
+            <br>
                             
-            <!-- Gender -->
-            <fieldset>
-                <!-- Gender -->
-                  <label for="Gender">Gender</label>
-                  <input type="Female" name="Female" id="" placeholder="Female">
+           <!-- GENDER -->
+          
+                    
+                <label for="genders">Gender</label>
+                <i class="fa-regular fa-circle-question"></i>
                 
-                  <!-- Male -->
-                  <input type="Male" name="Male" id="" placeholder="Male">
+                    <!-- female -->
+                <!-- radio input -->
+                    <div id="radio-btns">
+                    <div class="radio">
+                        <label for="female">Female</label>
+                
+                        <input type="radio" name="gender" id="female" required>
 
-                  <!-- Custom -->
-                  <!-- <label for="Custom">Custom</label> -->
-                  <input type="Custom" name="Custom" id="" placeholder="Custom">
-
-</fieldset>
+                    </div>
+           
+                        <!-- male -->
+                        <!-- radio input -->
+                 
+                        <div class="radio">
+                            <label for="Male">Male</label>
+                            <input type="radio" name="gender" id="other">
+                       </div>
+                        
+                <!-- </div> -->
+                
+                        <!-- Custom radio input -->
+                
+                <div class="radio">
+                    <label for="other">Custom</label>
+                    <input type="radio" name="gender" id="Custom">
+               </div>
+                
+             </div>
+             
+                
+         
                   <p>People who use our service may have uploaded your contact information to Facebook. Learn more.</p>  
 
                   <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and 
                     
         
-                    <div class="Sign Up">
-                        <button type="submit" class="signup">Sign Up</button>
+                    <div class="Sign-Up">
+                        <input type="submit" value="signup" id="submitBtn">
+                        <a href="#">Already have an account?</a>
                     </div>
+                    
        
-         
+
                 </form>
             </div>
         </section>
