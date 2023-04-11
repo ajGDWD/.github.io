@@ -23,7 +23,7 @@ main {
 }
 
 h2 {text-align: center;}
-h5 {text-align: center;}
+/* h5 {text-align: center;} */
 
 
 /* Set a style for all buttons */
@@ -37,10 +37,7 @@ button {
     width: 100%;
     opacity: 0.9;
   }
-  
-  button:hover {
-    opacity:1;
-  }
+
 .form {
     background-color: white;
     border-radius: 15px;
@@ -48,7 +45,29 @@ button {
     box-shadow: 0px 0px 40px 00px rgba(75,75,75, 0.3);
     color: #444;
 }
+#submitBtn {
+    border: none;
+    background-color: green;
+    font-weight: 600px;
+    color: white;
+}
+        
+input:valid {
+    border: 3px rgb(8, 107, 15) solid;
 
+}
+
+input:invalid { 
+    border: 3px red solid;
+}
+
+.Sign-Up {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
 @media screen and (max-width: 1200px) {
     main {
         grid-template-columns: 20% 60% 20%;

@@ -15,38 +15,58 @@
         <section class="page">
     <div class="logo">
                 <h1>Contact Form</h1>
-                    
+                <p> Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                 
             </div>
 
             <div class="form">
                 <h2>Contact Us</h2>
-                <h5>Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</h5>
-                <form action="POST">
-        <fieldset>
-                         <!-- What cam we help yoou with? -->
-            <label for="what can we help you with?">What can we help you with?</label>
-            <input type="how can we help?" name="how can we help?" id="how can we help?" placeholder="Email">
-        </fieldset>
-        <br>
-
-                        <!-- Email -->
-         <fieldset>
-            <label for="Email">Email</label>
-            <input type="Email" name="Email" id="Email" placeholder="Email">
-        </fieldset>
-
-        <br>
-        <fieldset>
-            <label for="Message">Message</label>
-            <input type="Message" name="Message" id="Message" placeholder="Message">
-
-        </fieldset>
-      
+              
+                
+    <form action="https://getform.io/f/f4c7f262-f97f-4f63-bd1e-92f044d27c47" method="post">
         
-         
-                </form>
-            </div>
-        <div class="gap">
+        <div>
+            <label for="What can we help you with?">What can we help you with?</label>
+
+            <select name="What can we help you with?" id="" required>
+                <option value="Locations">Locations</option>
+                <option value="Shipping">Shipping</option>
+                <option value="Out of Stock">Out of Stock</option>
+                <option value="Refund Policy">Refund Policy</option>
+            </select>
+        </div>
+        
+      <br>  
+
+      <div>
+         <!-- Name-->
+         <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="message" placeholder="" required minlength="2" maxlength="30">
+     </div>
+   
+    <br>  
+             <!-- Email -->
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" placeholder="">
+      </div>
+      <br>  
+        <div>
+            <!-- Message-->
+            <label for="Message">Message</label>
+     <textarea name="Message" id="Message" cols="30" rows="25
+     ">
+     </textarea>
+        </div>
+       
+        <br>  
+       <div class="Sign-Up">
+        <input type="submit" value="Send" id="submitBtn">
+      </div>
+
+</form>
+    </div>
+    <div class="gap">
 
         </div>
     </main>
