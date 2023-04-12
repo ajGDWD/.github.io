@@ -31,16 +31,16 @@
                         <form action="action_page.php">
                       
                           <label for="fname">First Name</label>
-                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                          <input type="text" id="fname" name="firstname" placeholder="Your name.." required min="2" max="2">
 
                           <label for="lname">Last Name</label>
-                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required min="2" max="2">
                           
                           <label for="fname">Phone Number</label>
-                          <input type="text" id="phonenumber" name="phonenumber" placeholder="Your phone number..">
+                          <input type="text" id="phonenumber" name="phonenumber" placeholder="Your phone number.." required min="2" max="2">
 
                           <label for="lname">Email</label>
-                          <input type="text" id="email" name="email" placeholder="Your email..">
+                          <input type="text" id="email" name="email" placeholder="Your email.." required min="2" max="2">
                       
                           <label for="country">Country</label>
                           <select id="country" name="country">
@@ -53,7 +53,7 @@
                         </select>
                       
                           <label for="subject">Message</label>
-                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                          <textarea id="subject" name="subject" placeholder="Write something.." required min="2" max="2" style="height:200px"></textarea>
                       
                          
                           <div class="Submit">
