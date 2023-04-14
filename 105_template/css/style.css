@@ -116,8 +116,14 @@ nav a:hover {
 
 /* MAIN Content */
 main {
-  padding: 25px 15%;
+  padding: 20px 30%;
 }
+img {height:  85%;
+}
+.img-container {height:  25vh;
+
+}
+
 
 /* contents: */
 
