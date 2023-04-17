@@ -37,9 +37,16 @@ header {
   background-color:#fff;
   color:#000;
 }
-.header-top{
-  width:15%;
+
+
+header, .header-bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
+
+
 nav {
   border-bottom: 2px solid #000000;
   background-color:#e1a177;
