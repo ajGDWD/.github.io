@@ -168,11 +168,12 @@ img {height:  85%;
   border-top:2px solid #000000;
 }
 footer {
-  background-color: #f8feff;
+  background-color: #e1a177;
   padding:25px;
-  border-top:2px dashed solid #e1a177;
+  border-top:2px double solid #000000;
   box-sizing: border-box;
   display:flex;
+  box-shadow: #000000;
 }
 footer h4, footer h5, footer h6 {
   font-family: "Bebas Neue";
@@ -201,7 +202,7 @@ footer h4 {
 .footer-feet {
   background-color: #000;
   height:40px;
-  border-top: 2px dashed #ffffff;
+  border-top: 2px dashed #000000;
 
   display:flex;
   align-items: center;
@@ -216,6 +217,7 @@ footer h4 {
   background-color: rgb(0, 0, 0);
  
 }
+
 
 /* Special typography */
 
