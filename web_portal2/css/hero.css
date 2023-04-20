@@ -1,0 +1,38 @@
+.site-hero { 
+    height: 80vh;
+    background-image: url("../images/yellow_flowers.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* justify-content: center;   */
+    align-items: center;
+    border-bottom: 2px;
+    
+}
+.hero-text {
+    color: rgb(1, 9, 16); 
+    font-style: italic;
+    text-align: center;
+    text-shadow: 3px 1px 2px rgb(241, 246, 242), 0 0 1em rgb(236, 236, 241), #e1a177;
+    font-family: 'Lobster', cursive;
+}
+.hero-text  { 
+    font-size: 8foxfem;
+    text-shadow: 3px 1px 2px rgb(241, 251, 250), 0 0 1em rgb(236, 236, 241), 0 0 0.2em rgb(0, 0, 0);
+    color: azure;
+    font-family: 'Lobster', cursive;
+}
+
+.hero-text h3 { 
+    font-size: 5em;
+    color: azure;
+    font-family: 'Lobster', cursive;
+}
+#fox {
+    width: 200%;
+    font-family:  'Lobster', cursive;;
+
+}
+    
+
+
