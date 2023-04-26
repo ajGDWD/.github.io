@@ -1,93 +1,105 @@
 
-.library__item-wrapper {
-    cursor: pointer;
-}
-
-.navigation__brand {
-    visibility: hidden;
-}
-
-.media-container {
-    background-color: #040404;
-}
-
-.Ribbon__cta-button {
-    color: #FFFFFF;
-    background: transparent;
-    border: 2px solid #FFFFFF;
-}
-
-.library__eyebrow {
-    color: #00ED82;
-}
-
-.Ribbon__eyebrow {
-    color: #00ED82;
-}
-
-.Masthead__input-cta {
-    width: 100%;
-    background: #1CE783;
-}
-
-.Masthead__input-cta:hover {
-    background-color: #1CE78390;
-}
-
-.Masthead__legal .Masthead__hulu-only {
-    padding-top: 10px;
-    font-size: 16px;
-}
-
-.Masthead__legal .Masthead__hulu-only a {
-    color: #FFFFFF !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
-    text-decoration: none;
-}
-
-.exp-plan-comparison-chart .button--black.button--cta:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-.exp-plan-comparison-chart.is-dark .plan-feature__bullet_text--strikethrough {
-    color: #C5CAD3;
-}
-
-@media (min-width: 1280px) {
-    .Ribbon .row {
+.site-hero { 
+    height: 80vh;
+    background-image: url("../css/images/hulu-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* justify-content: center;   */
+    align-items: center;
+    border-bottom: 2px;}
+   
+    .hulu_disney {
+        width: 200%;
         justify-content: center;
     }
+        
+nav ul {
+    display:flex;
+    padding-left:0;
+    margin:0px;
+  }
+  
+  nav li {
+    list-style-type: none;
+  }
+  nav a {
+    color:#fff;
+    text-decoration: none;
+    padding:5px 20px;
+    padding-left:2.5px;
+    display:inline-block;
+  }
+  nav a::before {
+    content:"|";
+    padding-right:5px;
+  }
+  nav a:hover {
+    background-color: #000000;
+    color:#f8feff;
+  }
+  .nav-contact {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:auto;
+    width:33%;
+  }
+  .nav-contact:hover {
+    color:#000000;
+  }
+  .nav-contact ion-icon{
+    margin-right:10px;
+  }
+  .nav-contact p {
+    margin:0;
+    margin-right: 10px;
+  }
+  
+  #site_logo {
+    width:100%;}
 
-    @media (min-width: 1024px) {
-        .Masthead {
-            max-height: none;
-        }
+    
 
-        .is-dark .plan-feature__check-0,
-        .is-dark .plan-head__card-0 {
-            background-color: inherit;
-        }
 
-        .is-dark .plan-feature__check-1,
-        .is-dark .plan-head__card-1 {
-            background-color: var(--gray-11);
-        }
-    }
-}
-
-.Billboard__border {
-    border: #000;
-}
-
-.value-prop-disclaimer {
-    color: #586174;
-    font-size: 10px;
-    font-weight: normal;
-    line-height: 16px;
-}
-
-.Masthead__legal.section-disclaimer .button-link {
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
     color: white;
-}
-
- 
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
