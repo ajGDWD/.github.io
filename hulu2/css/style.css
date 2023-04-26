@@ -14,51 +14,13 @@
         justify-content: center;
     }
         
-nav ul {
-    display:flex;
-    padding-left:0;
-    margin:0px;
-  }
-  
-  nav li {
-    list-style-type: none;
-  }
-  nav a {
-    color:#fff;
-    text-decoration: none;
-    padding:5px 20px;
-    padding-left:2.5px;
-    display:inline-block;
-  }
-  nav a::before {
-    content:"|";
-    padding-right:5px;
-  }
-  nav a:hover {
-    background-color: #000000;
-    color:#f8feff;
-  }
-  .nav-contact {
+
     display:flex;
     justify-content: flex-end;
     align-items: center;
     height:auto;
     width:33%;
-  }
-  .nav-contact:hover {
-    color:#000000;
-  }
-  .nav-contact ion-icon{
-    margin-right:10px;
-  }
-  .nav-contact p {
-    margin:0;
-    margin-right: 10px;
-  }
-  
-  #site_logo {
-    width:100%;}
-
+ 
     
 
 
