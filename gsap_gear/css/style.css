@@ -1,0 +1,8 @@
+   /* -- Basic CSS to sive the logo -- */
+   .animation_wrapper {
+    width:80%;
+    max-width: 600px;
+    margin:auto;
+}
+#style {background-image: linear-gradient(rgb(127, 11, 139), yellow);
+  }
