@@ -102,13 +102,13 @@ input:invalid {
     border: 3px red solid;
 }
 
-.Sign-Up {
+ .Sign-Up {
     display: flex;
     align-items: center;
     flex-direction: column;
 
 
-}
+} 
 
 @media screen and (max-width: 1200px) {
     main {

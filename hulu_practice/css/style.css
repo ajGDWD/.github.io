@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: GraphikBold;
+  src: url("../images/GraphikBlack.otf");
+}
+/* Header Styling */
+header {
+  background-image: url("../images/hulu-bg.jpeg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  height: 50vh;
+}
+/* Navigatin Styling */
+nav {display: flex;
+  justify-content: 
+  space-between;
+
+}
+nav img {
+  width: 75px;
+}
+
+nav button {
+  border: none;
+  color: #a8afbd;
+  background: none;
+
+}
+#bundle img {
+height: 10vh
+
+}
+#bundle {
+  align-self: center;
+  text-align: center;
+
+}
+#banner img {
+  height: 5vh;
+
+}
+
+#banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: auto;
+}
+h1 {
+  font-family: GraphikBold;
+  src: url("../images/GraphikBlack.otf");
+  
+}
+
+h2 {
+  font-family: GraphikRegular;
+  src: url("../images/GraphikRegular.otf");
+
+
+
+}
