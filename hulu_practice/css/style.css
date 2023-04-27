@@ -63,6 +63,29 @@ h2 {
   font-family: GraphikRegular;
   src: url("../images/GraphikRegular.otf");
 
+}
 
+/* main Content */
+main {
+  background-color: #0b0c0f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
+
+main h5 {
+  margin: 0;
+
+}
+#gallery {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 3rem;
+}
+@media screen and (max-width:768px) {
+#gallery {
+  grid-template-columns: 1fr 1fr;
+  grid-row: auto
+} };
