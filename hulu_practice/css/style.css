@@ -22,7 +22,7 @@ body {
 }
 /* Header Styling */
 header {
-  background: linear-gradient(rgb(0, 0, 0), rgb(57, 54, 54)), url("../images/hulu-bg.jpeg");
+  background: radial-gradient(rgba(255,255,255, 0.05), rgba(0, 0,0, 0.664)), url("../images/hulu-bg.jpeg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -55,6 +55,15 @@ height: 10vh
   text-align: center;
 
 }
+
+form input [type=submit] {
+  background-color: green;
+  border: none;
+  font-family: GraphikBold;
+
+}
+
+form
 #banner img {
   height: 5vh;
 
@@ -76,6 +85,44 @@ h1 {
 h2 {
   font-family: GraphikRegular;
   src: url("../images/GraphikRegular.otf");
+
+}
+h5 {
+  font-family: GraphikBold;
+  color: #1ce783;
+
+}
+
+form input {
+  padding: 0.9rem 1.2rem;
+  border-radius:  5px;
+}
+
+
+form a {
+  color: white
+}
+
+input[type=submit] {
+  background-color:#1ce783;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+ font-family: GraphikBold;
+  
+}
+
+input[type=submit]:hover {
+  background-color: opacity: 0.7; 
+}
+
+.Submit {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+nav button {
+
 
 }
 

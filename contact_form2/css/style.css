@@ -43,12 +43,12 @@ input:valid {
 }
 
 input[type=submit]:hover {
-    background-color: #22aa4a;
+    background-color: #1ce783
   }
 
   input[type=submit] {
-    background-color: #0771c2;
-    color: white;
+    background-color: #1aa85c;
+    color: rgb(0, 0, 0);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
