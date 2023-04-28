@@ -88,13 +88,6 @@ h2 {
   src: url("../images/GraphikRegular.otf");
 
 }
-
-h4, h6 {
-    font-family: GraphikRegular;
-    src: url("../images/GraphikRegular.otf");
-}
-
-
 h5 {
   font-family: GraphikBold;
   color: #1ce783;
@@ -177,13 +170,17 @@ gap: 3rem;
   height: 30vh;
 }
 /* Footer ~~~~~~~ */
-.footer-hat {
-  height:30px;
-  background-color: #f8feff;
+
+footer {
+  background-color: #000000;
   border-top:2px solid #000103;
   align-items: center;
+  display: flex;
+  flex-direction: column;
 }
-footer {
+
+
+.footer-left {
   background-color: #000000;
   padding:25px;
   border-top:2px solid #050606;
@@ -191,8 +188,8 @@ footer {
   display:flex;
   color: white;
   align-items: center;
-  justify-content: center;
 }
+
 
 @media screen and (max-width:768px) {
 #gallery {
