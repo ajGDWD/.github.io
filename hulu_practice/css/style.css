@@ -36,6 +36,7 @@ nav {display: flex;
   space-between;
 
 }
+
 nav img {
   width: 75px;
 }
@@ -66,7 +67,6 @@ form input [type=submit] {
 
 #banner img {
   height: 5vh;
-
 }
 
 #banner {
