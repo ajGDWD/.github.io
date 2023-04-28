@@ -75,6 +75,7 @@ form
   justify-content: center;
   align-self: center;
   margin-top: auto;
+  background: rgba(0, 0,0, 0.4);
 }
 h1 {
   font-family: GraphikBold;
@@ -113,7 +114,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: opacity: 0.7; 
+  background-color: opacity 0.7; 
 }
 
 .Submit {
@@ -121,8 +122,24 @@ input[type=submit]:hover {
   align-items: center;
   flex-direction: column;
 }
-nav button {
 
+#Get-all-three {
+border: white 2px solid;
+border-radius: 5px;
+background-color: transparent;
+padding: 0.9rem 1.2rem;
+display: flex;
+flex-direction: column;
+
+}
+
+#trio-bundle {
+  width: 40%;
+  margin-left: 5rem;
+}
+#trio-bundle, h5 {
+  font-family: graphikMedium;
+  margin-bottom: 0;
 
 }
 
