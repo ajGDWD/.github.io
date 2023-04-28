@@ -40,8 +40,6 @@
         } )
                 
        
-
-
         // .main-Text ({
         //    display flex
         
